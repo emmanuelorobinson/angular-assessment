@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(
+    ../../../assets/fonts/Montserrat-Regular.otf
+  );
+}
+
+$primary-color: #4685ff;
+
+.button-container {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 0.9rem;
+  background-color: white;
+  color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
