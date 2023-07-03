@@ -8,6 +8,7 @@ import { ImageShowcaseComponent } from '../components/image-showcase/image-showc
 import { AppShowcaseComponent } from '../components/app-showcase/app-showcase.component';
 import { TestamentComponent } from '../components/testament/testament.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { ConfirmModalComponent } from '../components/confirm-modal/confirm-modal.component';
 
 
 const COMPONENT = [
@@ -18,7 +19,8 @@ const COMPONENT = [
   ImageShowcaseComponent,
   AppShowcaseComponent,
   TestamentComponent,
-  FooterComponent
+  FooterComponent,
+  ConfirmModalComponent
 ];
 
 

@@ -1,13 +1,6 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url(
-    ../../../assets/fonts/Montserrat-Regular.otf
-  );
-}
+
 $top-padding: 0.5rem;
 $shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-$primary-text-color: #4685ff;
-$secondary-text-color: #bfc6c2;
 
 .container {
   background-color: white;
@@ -80,21 +73,18 @@ $secondary-text-color: #bfc6c2;
   align-items: center;
   margin-top: 7rem;
 
-  h1 {
-    font-family: 'Montserrat';
-    font-size: 2rem;
-    font-weight: 400;
-    color: $primary-text-color;
+  h1, h2 {
     margin: 0;
     text-transform: uppercase;
   }
 
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
   h2 {
-    font-family: 'Montserrat';
     font-size: 0.9rem;
     font-weight: 400;
-    color: $secondary-text-color;
-    margin: 0;
-    text-transform: uppercase;
   }
 }

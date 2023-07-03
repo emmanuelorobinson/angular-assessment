@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-hero-section',
@@ -6,6 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero-section.component.scss']
 })
 export class HeroSectionComponent {
+
+  // link the showModal property from HomeComponent to the showModal property in HeroSectionComponent
+  // define showModal
+  @Output() openModal = new EventEmitter<void>();
+
+  onOpenModal() {
+    this.openModal.emit();
+  }
+
+
   featureLists = [
     {
       src: 'assets/images/c1.png',

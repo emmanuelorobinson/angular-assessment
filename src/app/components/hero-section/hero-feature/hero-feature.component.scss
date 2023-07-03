@@ -1,15 +1,7 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url(
-    ../../../../assets/fonts/Montserrat-Regular.otf
-  );
-}
-
-$primary-text-color: #4685ff;
-$secondary-text-color: #bfc6c2;
 
 
 .feature-container {
+  position: relative;
   width: 12rem;
   display: flex;
   flex-direction: column;
@@ -19,17 +11,17 @@ $secondary-text-color: #bfc6c2;
 
   font-family: 'Montserrat';
 
+  h3, p {
+    margin-bottom: 1rem;
+  }
+
   h3 {
     font-size: 0.8rem;
     font-weight: 500;
-    color: #1D1D1D;
-    margin-bottom: 1rem;
   }
 
   p {
     font-size: 0.7rem;
     font-weight: 400;
-    color: $secondary-text-color;
-    margin-bottom: 1rem;
   }
 }

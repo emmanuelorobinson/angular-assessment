@@ -1,6 +1,7 @@
 <div class="container">
   <app-header> </app-header>
-  <app-hero-section> </app-hero-section>
+  <app-confirm-modal  [showModal]="showModal" (closeModal)="onCloseModal()" *ngIf="showModal"></app-confirm-modal>
+  <app-hero-section (openModal) = "onOpenModal()"> </app-hero-section>
   <app-image-showcase></app-image-showcase>
   <app-app-showcase></app-app-showcase>
   <app-testament></app-testament>
